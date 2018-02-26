@@ -83,7 +83,7 @@ public class CarreiraPorFerramentas implements Acao {
 	private String constroiResposta(List<Carreira> listaCarreiras, List<String> params) {
 		if (listaCarreiras.isEmpty()) {
 			return "não sabemos responder sobre carreiras de " + params
-					+ ". use o canal duvidas_comercial para este fim.";
+					+ ". use o canal *duvidas_comercial* para este fim.";
 		} else {
 
 			String resp = "";
