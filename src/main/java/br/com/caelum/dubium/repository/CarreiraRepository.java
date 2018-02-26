@@ -11,7 +11,7 @@ import br.com.caelum.dubium.modelo.Carreira;
 import br.com.caelum.dubium.modelo.Ferramenta;
 
 @Repository
-public interface CarreiraRepository extends CrudRepository<Ferramenta, Long>, QueryByExampleExecutor<Ferramenta> {
+public interface CarreiraRepository extends CrudRepository<Carreira, Long>, QueryByExampleExecutor<Ferramenta> {
 	
 	Set<Carreira> findByFerramentasIn(List<Ferramenta> ferramentas);
 

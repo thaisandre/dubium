@@ -11,7 +11,7 @@ public class AcaoFactory {
 	private ApplicationContext spring;
 
 	public Acao getAcao(String action) {
-		String nomeClasse = "br.com.projeto_duvidas.acao." + action;
+		String nomeClasse = "br.com.caelum.dubium.acao." + action;
 		System.out.println("nome da classe: " + nomeClasse);
 		try {
 			Class<?> clazz = Class.forName(nomeClasse);

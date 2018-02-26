@@ -26,6 +26,7 @@ public class CarreiraPorFerramentas implements Acao {
 	public String executa(List<String> params, String operador) {
 		System.out.println("entrou no EXECUTA de Carreiras");
 		System.out.println("params: " + params);
+		System.out.println("operador: " + operador);
 
 		List<Ferramenta> ferramentas = criaLista(params);
 		System.out.println("ferramentas: " + ferramentas.toString());
