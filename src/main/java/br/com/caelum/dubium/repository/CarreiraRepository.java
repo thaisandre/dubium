@@ -15,5 +15,4 @@ public interface CarreiraRepository extends CrudRepository<Carreira, Long>, Quer
 	
 	Set<Carreira> findByFerramentasIn(List<Ferramenta> ferramentas);
 
-	Iterable<Carreira> findByFerramentasLike(List<Ferramenta> ferramentas);
 }
